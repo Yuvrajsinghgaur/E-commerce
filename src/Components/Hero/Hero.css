@@ -2,8 +2,8 @@
     height: 100vh;
     background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
   }
   
   .hero-left {
@@ -18,13 +18,13 @@
   
   .hero-left h2 {
     color: #090909;
-    font-size: 26px;
+    font-size: 40px;
     font-weight: 600;
   }
   
   .hero-left p {
     color: #171717;
-    font-weight: 700;
+    font-weight: 1000;
   }
   
   .hero-hand-icon {
@@ -35,6 +35,10 @@
   
   .hero-hand-icon img {
     width: 105px;
+  }
+
+  .hero-hand-icon p {
+    font-size: 22px;
   }
   
   .hero-latest-btn {
@@ -53,7 +57,7 @@
   }
   
   .hero-right img {
-    width: 69%; /* This sets the width to 50% of its parent container */
+    width:75%; /* This sets the width to 50% of its parent container */
     height: auto; /* Maintains the aspect ratio of the image */
   }
   
